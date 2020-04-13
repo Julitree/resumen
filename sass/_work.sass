@@ -1,0 +1,177 @@
+@import _variables
+@import _extended
+
+.static--two
+    background: url(../img/escheresque_ste.png)
+    height: 50vh
+    .titleStyle
+        top: 10vh
+        left: 70vw
+
+.movable--two
+    width: 100vw
+    height: 100vh
+    background: url(../img/escheresque_ste.png)
+    z-index: 1000
+   
+.info
+    display: block
+    color: $white
+    font-size: 5em
+    text-align: center
+    margin: 1% 0 0 0
+
+.info-2
+    @extend .info
+    @extend  .styleFamilySecond
+
+.refes
+    display: grid
+    grid-template-columns: repeat(3,  1fr)
+    grid-template-rows: repeat(3,  1fr)
+    grid-gap: 3%
+    margin: 2% auto
+    height: 76vh
+    width: 58vw
+    .static
+        float: none
+        width: auto
+
+.work-1
+    background-image: url(../img/galeria/front/1.jpg)
+    @extend .transitionButtons
+    @extend .styleImages
+    &:hover
+        @extend .hoverImageJobs
+
+.work-2
+    background-image: url(../img/galeria/front/2.jpg)
+    @extend .transitionButtons
+    @extend .styleImages
+    &:hover
+        @extend .hoverImageJobs
+
+.work-3
+    background-image: url(../img/galeria/front/3.jpg)
+    @extend .styleImages
+    @extend .transitionButtons
+    &:hover
+        @extend .hoverImageJobs
+        
+
+.work-4
+    background-image: url(../img/galeria/front/4.jpg)
+    @extend .styleImages
+    @extend .transitionButtons
+    &:hover
+        @extend .hoverImageJobs
+
+.work-5
+    background-image: url(../img/galeria/front/5.jpg)
+    @extend .styleImages
+    @extend .transitionButtons
+    &:hover
+        @extend .hoverImageJobs
+
+.work-6
+    background-image: url(../img/galeria/front/6.jpg)
+    background-size: cover
+    @extend .styleImages
+    @extend .transitionButtons
+    &:hover
+        @extend .hoverImageJobs
+
+.work-7
+    background-image: url(../img/galeria/front/7.jpg)
+    @extend .styleImages
+    @extend .transitionButtons
+    &:hover
+        @extend .hoverImageJobs
+
+.work-8
+    background-image: url(../img/galeria/front/8.jpg)
+    background-size: cover
+    @extend .transitionButtons
+    @extend .styleImages
+    &:hover
+        @extend .hoverImageJobs
+
+.work-9
+    background-image: url(../img/galeria/front/9.jpg)
+    @extend .styleImages
+    @extend .transitionButtons
+    &:hover
+        @extend .hoverImageJobs
+
+
+.wrapFullJob
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-gap: 2%
+    height: 97vh
+    overflow: auto
+
+.titleSize
+    font-size: 3.5em
+
+li
+    font-size: 2em
+    list-style: none
+    @extend .styleFamilySecond
+
+
+.hyperlinkWrap
+    display: block
+    text-align: center
+    border: 1px solid $yellow
+    height: 5%
+    width: 32vw
+    line-height: 9%
+    text-decoration: none
+    &:hover
+            background-color: $grey
+            color: $grey
+            @extend .transitionButtons
+    p
+        font-size: 2.5em
+        color: $yellow
+       
+
+.Full1
+    background-image: url("../img/galeria/full/1Full.jpg")
+    @extend .styleImages
+
+.Full2
+    background-image: url("../img/galeria/full/2Full.jpg")
+    background-size: contain
+    @extend .styleImages
+
+.Full3
+    background-image: url("../img/galeria/full/3Full.jpg")
+    @extend .styleImages
+
+.Full4
+    background-image: url("../img/galeria/full/4Full.jpg")
+    @extend .styleImages
+
+.Full5
+    background-image: url("../img/galeria/full/5Full.jpg")
+    background-size: contain
+    @extend .styleImages
+    
+.Full6
+    background-image: url("../img/galeria/full/6Full.jpg")
+    background-size: contain
+    @extend .styleImages
+
+.Full7
+    background-image: url("../img/galeria/full/7Full.jpg")
+    @extend .styleImages
+        
+.Full8
+    background-image: url("../img/galeria/full/8Full.jpg")
+    @extend .styleImages
+
+.Full9
+    background-image: url("../img/galeria/full/9Full.jpg")
+    @extend .styleImages

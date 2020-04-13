@@ -1,0 +1,63 @@
+@import _variables
+@import _extended
+
+
+.sky
+    position: absolute
+    height: 50vh
+    width: 50vw
+    background-image: url(../img/galaxy.png)
+    animation: moveX 22s steps(100) infinite
+
+
+@keyframes moveX
+    from 
+        background-position-x: 0%
+    
+    to 
+        background-position-x: -100vw
+
+
+.woman
+    background-image: url("../img/1.png")
+    background-size: cover
+    height: 100vh
+    width: 50vw
+    position: absolute
+    @extend .styleImages
+    
+
+.movable--one
+    display: grid
+    grid-template-areas: 'left right'
+    grid-template-columns: 50vw 50vw
+    grid-template-rows: 100vh
+    z-index: 1000
+
+.leftWrap
+    grid-area: left
+    background-image: url(../img/juli.jpg)
+    background-size: cover
+    @extend .styleImages
+
+.rightWrap
+    grid-area: right
+    background-color: $yellow
+    padding: 5vw
+    overflow: scroll
+    h1
+        font-size: 5em
+    h2
+        font-size: 4em
+    p
+        @extend .styleFamilySecond
+       
+.texto
+    display: inline
+    padding: 1%
+    background-color: $lightYellow
+    color: $white
+    font-size: 2em
+    @extend .styleFamilySecond
+    
+
