@@ -1,0 +1,410 @@
+.styleImages, .woman, .leftWrap, .work-1, .work-2, .work-3, .work-4, .work-5, .work-6, .work-7, .work-8, .work-9, .Full1, .Full2, .Full3, .Full4, .Full5, .Full6, .Full7, .Full8, .Full9, .skill-1, .skill-2, .skill-3, .skill-4, .skill-5, .skill-6, .skill-7, .skill-8, .skill-9, .skill-10, .skill-11, .skill-12, .skill-13, .skill-14 {
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.perfectSizePhoto, .skill-1, .skill-2, .skill-3, .skill-4, .skill-5, .skill-6, .skill-7, .skill-8, .skill-9, .skill-10, .skill-11, .skill-12, .skill-13, .skill-14 {
+  background-size: contain; }
+
+.styleFamilySecond, .rightWrap p, .texto, .info-2, li {
+  font-size: 1.7em;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 184%; }
+
+.hoverImageJobs, .work-1:hover, .work-2:hover, .work-3:hover, .work-4:hover, .work-5:hover, .work-6:hover, .work-7:hover, .work-8:hover, .work-9:hover {
+  border: 1.2vw solid #f6a600;
+  cursor: pointer; }
+
+.transitionButtons, .work-1, .work-2, .work-3, .work-4, .work-5, .work-6, .work-7, .work-8, .work-9, .hyperlinkWrap:hover, .button:hover, .switchLanguage:hover, .switchLanguage1:hover {
+  transition: all 0.5s ease-in; }
+
+.checkSkill, .skill-1:hover, .skill-2:hover, .skill-3:hover, .skill-4:hover, .skill-5:hover, .skill-6:hover, .skill-7:hover, .skill-8:hover, .skill-9:hover, .skill-10:hover, .skill-11:hover, .skill-12:hover, .skill-13:hover, .skill-14:hover {
+  background-image: url("../img/skills/check.png"); }
+
+.incrementando {
+  position: absolute;
+  bottom: 0;
+  width: 73%;
+  height: 0;
+  margin: 0% 10%; }
+
+.jarPicture {
+  position: absolute;
+  bottom: 0;
+  background-image: url(../img/skills/tarro1.png);
+  height: 100%;
+  width: 100%; }
+
+.sky {
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+  background-image: url(../img/galaxy.png);
+  animation: moveX 22s steps(100) infinite; }
+
+@keyframes moveX {
+  from {
+    background-position-x: 0%; }
+  to {
+    background-position-x: -100vw; } }
+.woman {
+  background-image: url("../img/1.png");
+  background-size: cover;
+  height: 100vh;
+  width: 50vw;
+  position: absolute; }
+
+.movable--one {
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 100vh;
+  z-index: 1000; }
+
+.leftWrap {
+  grid-area: left;
+  background-image: url(../img/juli.jpg);
+  background-size: cover; }
+
+.rightWrap {
+  grid-area: right;
+  background-color: #f6a600;
+  padding: 5vw;
+  overflow: scroll; }
+  .rightWrap h1 {
+    font-size: 5em; }
+  .rightWrap h2 {
+    font-size: 4em; }
+
+.texto {
+  display: inline;
+  padding: 1%;
+  background-color: #fbb729;
+  color: #fff;
+  font-size: 2em; }
+
+.styleImages, .woman, .leftWrap, .work-1, .work-2, .work-3, .work-4, .work-5, .work-6, .work-7, .work-8, .work-9, .Full1, .Full2, .Full3, .Full4, .Full5, .Full6, .Full7, .Full8, .Full9, .skill-1, .skill-2, .skill-3, .skill-4, .skill-5, .skill-6, .skill-7, .skill-8, .skill-9, .skill-10, .skill-11, .skill-12, .skill-13, .skill-14 {
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.perfectSizePhoto, .skill-1, .skill-2, .skill-3, .skill-4, .skill-5, .skill-6, .skill-7, .skill-8, .skill-9, .skill-10, .skill-11, .skill-12, .skill-13, .skill-14 {
+  background-size: contain; }
+
+.styleFamilySecond, .rightWrap p, .texto, .info-2, li {
+  font-size: 1.7em;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 184%; }
+
+.hoverImageJobs, .work-1:hover, .work-2:hover, .work-3:hover, .work-4:hover, .work-5:hover, .work-6:hover, .work-7:hover, .work-8:hover, .work-9:hover {
+  border: 1.2vw solid #f6a600;
+  cursor: pointer; }
+
+.transitionButtons, .work-1, .work-2, .work-3, .work-4, .work-5, .work-6, .work-7, .work-8, .work-9, .hyperlinkWrap:hover, .button:hover, .switchLanguage:hover, .switchLanguage1:hover {
+  transition: all 0.5s ease-in; }
+
+.checkSkill, .skill-1:hover, .skill-2:hover, .skill-3:hover, .skill-4:hover, .skill-5:hover, .skill-6:hover, .skill-7:hover, .skill-8:hover, .skill-9:hover, .skill-10:hover, .skill-11:hover, .skill-12:hover, .skill-13:hover, .skill-14:hover {
+  background-image: url("../img/skills/check.png"); }
+
+.incrementando {
+  position: absolute;
+  bottom: 0;
+  width: 73%;
+  height: 0;
+  margin: 0% 10%; }
+
+.jarPicture {
+  position: absolute;
+  bottom: 0;
+  background-image: url(../img/skills/tarro1.png);
+  height: 100%;
+  width: 100%; }
+
+.static--two {
+  background: url(../img/escheresque_ste.png);
+  height: 50vh; }
+  .static--two .titleStyle {
+    top: 10vh;
+    left: 70vw; }
+
+.movable--two {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/escheresque_ste.png);
+  z-index: 1000; }
+
+.info, .info-2 {
+  display: block;
+  color: #fff;
+  font-size: 5em;
+  text-align: center;
+  margin: 1% 0 0 0; }
+
+.refes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 3%;
+  margin: 2% auto;
+  height: 76vh;
+  width: 58vw; }
+  .refes .static {
+    float: none;
+    width: auto; }
+
+.work-1 {
+  background-image: url(../img/galeria/front/1.jpg); }
+
+.work-2 {
+  background-image: url(../img/galeria/front/2.jpg); }
+
+.work-3 {
+  background-image: url(../img/galeria/front/3.jpg); }
+
+.work-4 {
+  background-image: url(../img/galeria/front/4.jpg); }
+
+.work-5 {
+  background-image: url(../img/galeria/front/5.jpg); }
+
+.work-6 {
+  background-image: url(../img/galeria/front/6.jpg);
+  background-size: cover; }
+
+.work-7 {
+  background-image: url(../img/galeria/front/7.jpg); }
+
+.work-8 {
+  background-image: url(../img/galeria/front/8.jpg);
+  background-size: cover; }
+
+.work-9 {
+  background-image: url(../img/galeria/front/9.jpg); }
+
+.wrapFullJob {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2%;
+  height: 97vh;
+  overflow: auto; }
+
+.titleSize {
+  font-size: 3.5em; }
+
+li {
+  font-size: 2em;
+  list-style: none; }
+
+.hyperlinkWrap {
+  display: block;
+  text-align: center;
+  border: 1px solid #f6a600;
+  height: 5%;
+  width: 32vw;
+  line-height: 9%;
+  text-decoration: none; }
+  .hyperlinkWrap:hover {
+    background-color: #3e3e3e;
+    color: #3e3e3e; }
+  .hyperlinkWrap p {
+    font-size: 2.5em;
+    color: #f6a600; }
+
+.Full1 {
+  background-image: url("../img/galeria/full/1Full.jpg"); }
+
+.Full2 {
+  background-image: url("../img/galeria/full/2Full.jpg");
+  background-size: contain; }
+
+.Full3 {
+  background-image: url("../img/galeria/full/3Full.jpg"); }
+
+.Full4 {
+  background-image: url("../img/galeria/full/4Full.jpg"); }
+
+.Full5 {
+  background-image: url("../img/galeria/full/5Full.jpg");
+  background-size: contain; }
+
+.Full6 {
+  background-image: url("../img/galeria/full/6Full.jpg");
+  background-size: contain; }
+
+.Full7 {
+  background-image: url("../img/galeria/full/7Full.jpg"); }
+
+.Full8 {
+  background-image: url("../img/galeria/full/8Full.jpg"); }
+
+.Full9 {
+  background-image: url("../img/galeria/full/9Full.jpg"); }
+
+.static--three {
+  height: 50vh;
+  background: linear-gradient(to top, #7a946f 0%, #526f45 100%);
+  z-index: 1000; }
+  .static--three .titleStyle {
+    left: 72vw;
+    top: 60vh; }
+
+.movable--three {
+  width: 100vw;
+  height: 100vh;
+  background: #5b784d; }
+
+.skillsWrap {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 2% auto;
+  height: 69vh;
+  width: 93vw; }
+
+.skill-1 {
+  background-image: url(../img/skills/webDesing.png); }
+
+.skill-2 {
+  background-image: url(../img/skills/html.png); }
+
+.skill-3 {
+  background-image: url(../img/skills/css.png); }
+
+.skill-4 {
+  background-image: url(../img/skills/js.png); }
+
+.skill-5 {
+  background-image: url(../img/skills/sass.png); }
+
+.skill-6 {
+  background-image: url(../img/skills/bootstrap.png); }
+
+.skill-7 {
+  background-image: url(../img/skills/wordpress.png); }
+
+.skill-8 {
+  background-image: url(../img/skills/e-commerce.png); }
+
+.skill-9 {
+  background-image: url(../img/skills/responsiveDe.png); }
+
+.skill-10 {
+  background-image: url(../img/skills/git.png); }
+
+.skill-11 {
+  background-image: url(../img/skills/javaFX.png); }
+
+.skill-12 {
+  background-image: url(../img/skills/illustrator.png); }
+
+.skill-13 {
+  background-image: url(../img/skills/photoshop.png); }
+
+.skill-14 {
+  background-image: url(../img/skills/adobeXD.png); }
+
+.styleImages, .woman, .leftWrap, .work-1, .work-2, .work-3, .work-4, .work-5, .work-6, .work-7, .work-8, .work-9, .Full1, .Full2, .Full3, .Full4, .Full5, .Full6, .Full7, .Full8, .Full9, .skill-1, .skill-2, .skill-3, .skill-4, .skill-5, .skill-6, .skill-7, .skill-8, .skill-9, .skill-10, .skill-11, .skill-12, .skill-13, .skill-14 {
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.perfectSizePhoto, .skill-1, .skill-2, .skill-3, .skill-4, .skill-5, .skill-6, .skill-7, .skill-8, .skill-9, .skill-10, .skill-11, .skill-12, .skill-13, .skill-14 {
+  background-size: contain; }
+
+.styleFamilySecond, .rightWrap p, .texto, .info-2, li {
+  font-size: 1.7em;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 184%; }
+
+.hoverImageJobs, .work-1:hover, .work-2:hover, .work-3:hover, .work-4:hover, .work-5:hover, .work-6:hover, .work-7:hover, .work-8:hover, .work-9:hover {
+  border: 1.2vw solid #f6a600;
+  cursor: pointer; }
+
+.transitionButtons, .work-1, .work-2, .work-3, .work-4, .work-5, .work-6, .work-7, .work-8, .work-9, .hyperlinkWrap:hover, .button:hover, .switchLanguage:hover, .switchLanguage1:hover {
+  transition: all 0.5s ease-in; }
+
+.checkSkill, .skill-1:hover, .skill-2:hover, .skill-3:hover, .skill-4:hover, .skill-5:hover, .skill-6:hover, .skill-7:hover, .skill-8:hover, .skill-9:hover, .skill-10:hover, .skill-11:hover, .skill-12:hover, .skill-13:hover, .skill-14:hover {
+  background-image: url("../img/skills/check.png"); }
+
+.incrementando {
+  position: absolute;
+  bottom: 0;
+  width: 73%;
+  height: 0;
+  margin: 0% 10%; }
+
+.jarPicture {
+  position: absolute;
+  bottom: 0;
+  background-image: url(../img/skills/tarro1.png);
+  height: 100%;
+  width: 100%; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Waiting for the Sunrise", cursive;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 300;
+  background: linear-gradient(to top, #f6a600 0%, #2c535f 100%);
+  overflow: hidden; }
+
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #313131bd; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #313131bd; }
+
+.static {
+  float: left;
+  width: 50vw; }
+
+.static--one {
+  height: 100vh; }
+
+.titleStyle {
+  font-size: 6em;
+  position: absolute;
+  top: 80vh;
+  left: 20vw; }
+
+.movable {
+  position: absolute;
+  top: 0;
+  left: 100vw; }
+
+.show {
+  left: 0vw; }
+
+.button, .switchLanguage, .switchLanguage1 {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 6vw;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.2% 0.5%;
+  background-color: #5d5d5d;
+  font-size: 2em; }
+  .button:hover, .switchLanguage:hover, .switchLanguage1:hover {
+    background: #fff;
+    color: #3e3e3e; }
+
+.switchLanguage {
+  top: 0;
+  right: 43vw;
+  background-color: #eababa; }
+
+.switchLanguage1 {
+  right: 43vw;
+  background-color: #eababa; }
+
+/*# sourceMappingURL=style.css.map */
